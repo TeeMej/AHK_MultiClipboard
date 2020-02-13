@@ -2,6 +2,9 @@
 
 title = ClipboardManager 0.1.0.1
 
+^h::
+	MsgBox,0,Help,Ctrl+h: This help`nCtrl+Shift+v: Clipboard to text`nCtrl+Shift-l: Link transform
+return
 
 ^+v::
 	tmpCbp := ClipboardAll
